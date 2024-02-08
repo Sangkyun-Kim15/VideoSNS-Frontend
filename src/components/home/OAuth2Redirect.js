@@ -16,6 +16,7 @@ function OAuth2Redirect() {
       const redirect = '/'
       setRedirectTo(redirect)
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const extractUrlParameter = (key) => {
